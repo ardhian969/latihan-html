@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BACKGROUND LOVE ANIMATION -->
+    <div id="love-container"></div>
+
+    <!-- PAGE 1 -->
+    <section class="page active fade" id="page1">
+        <div class="card">
+            <img src="images/cake.png" class="img-big">
+            <h1>HAPPY BIRTHDAY!!</h1>
+            <h2>MY LOVE 💙</h2>
+            <button onclick="nextPage(2)" class="btn">Next →</button>
+        </div>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page slide" id="page2">
+        <div class="card">
+            <img src="images/star.png" class="img-small">
+            <h1>IT’S YOUR DAY!! ✨</h1>
+            <p class="big-text">
+                Let’s make this birthday<br>
+                unforgettable!
+            </p>
+            <div class="nav">
+                <button onclick="nextPage(1)">← Back</button>
+                <button onclick="nextPage(3)">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page fade" id="page3">
+        <div class="card">
+            <img src="images/heart.png" class="img-small">
+            <p>
+                Selamat ulang tahun ya, semoga di hari spesial ini semua hal
+                baik datang menghampirimu — kebahagiaan, kesehatan, dan
+                cinta yang tulus.
+            </p>
+            <p>
+                Terima kasih sudah jadi sosok yang selalu membawa warna
+                dan semangat di sekitarmu.
+            </p>
+            <div class="nav">
+                <button onclick="nextPage(2)">← Back</button>
+                <button onclick="nextPage(4)">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page slide" id="page4">
+        <div class="card">
+            <img src="images/gift.png" class="img-big">
+            <h1>ENJOY YOUR</h1>
+            <h1 class="blue">15th BIRTHDAY 🎉</h1>
+            <div class="nav">
+                <button onclick="nextPage(3)">← Back</button>
+                <button onclick="nextPage(5)">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page fade" id="page5">
+        <div class="card">
+            <img src="images/photo.png" class="img-big circle">
+            <h1>HBD BELAA! 💙</h1>
+            <h2>SI IMUT 🌸</h2>
+            <button onclick="nextPage(1)" class="btn">↺ Ulangi</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
